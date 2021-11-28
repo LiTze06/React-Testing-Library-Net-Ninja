@@ -9,11 +9,35 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Speeds up QA time
 - Can serve as documentations
 
-# Tyoes if Test
+# Types of Test
 
 1. Unit Tests - test a piece of code / component in complete isolation
 2. Integration Tests - test interaction between components
 3. End to End (E2E) Tests - typically using cypress
+
+# Priorities (Ascending order)
+
+Accessible for Everyone
+
+```
+- getByRole
+- getByLabelText
+- getByPlaceholderText
+- getByText
+```
+
+Semantic Queries
+
+```
+- getByAltText
+- getByTitle
+```
+
+Test ID
+
+```
+getByTestId
+```
 
 ## Available Scripts
 
