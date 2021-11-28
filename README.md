@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Importance of Testing
+
+- Catch bugs
+- Increases Confidence in Application
+- Speeds up QA time
+- Can serve as documentations
+
+# Tyoes if Test
+
+1. Unit Tests - test a piece of code / component in complete isolation
+2. Integration Tests - test interaction between components
+3. End to End (E2E) Tests - typically using cypress
+
 ## Available Scripts
 
 In the project directory, you can run:
